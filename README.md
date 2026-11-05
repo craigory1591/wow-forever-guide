@@ -1,7 +1,7 @@
 # WoW Forever Guide – RestedXP leveling guides (all races & classes, 1-60)
 
 Leveling guides for **World of Warcraft: Forever** that load straight into the **RestedXP** addon.
-There is one 1-60 guide for every race and class you can pick in Forever, including the new Skyborne race - 56 guides in total.
+There is one 1-60 guide for every race and class you can pick in Forever, including the new Skyborne race (56 guides), plus start-anywhere guides so any class can level through any starting zone of its faction - 110 guides in total.
 
 ## Download
 
@@ -31,7 +31,22 @@ There is one 1-60 guide for every race and class you can pick in Forever, includ
 | High Order Skyborne (Alliance) | Warrior, Hunter, Rogue, Mage, Druid |
 | Windshaper Skyborne (Horde) | Warrior, Hunter, Rogue, Shaman, Druid |
 
-Each guide follows that race's starting zones, then the Alliance or Horde route to 60, with the class
+### Start anywhere
+
+Want to level somewhere other than your race's home? The **WoW Forever Guide - Start Anywhere (Alliance / Horde)**
+groups have a guide for every class through each starting zone of your faction:
+
+| Faction | Starting zones |
+|---|---|
+| Alliance | Elwynn Forest (Northshire), Dun Morogh (Coldridge Valley), Teldrassil (Shadowglen) |
+| Horde | Durotar (Valley of Trials), Tirisfal Glades (Deathknell), Mulgore (Camp Narache) |
+
+So a Night Elf Druid can pick **1-60 Druid - Elwynn Forest start** and quest through Northshire, Westfall and onwards.
+Each one starts with a "getting there" step that tells you how to travel to that zone from your own starting area.
+
+### How the guides work
+
+Each race guide follows that race's starting zones, then the Alliance or Horde route to 60, with the class
 quests (stances, demons, totems, pet taming, druid forms, mounts...) shown at the level you need them.
 Every zone ends with a level checkpoint, so the guide waits for you there. Click a step to tick it off once it's done.
 
