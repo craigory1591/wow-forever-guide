@@ -1,0 +1,14 @@
+## Interface: 16001
+## Title: RestedXP - WoW Forever Guide (All Classes)
+## Notes: 1-60 leveling guides for every race and class in WoW: Forever
+## Version: 3
+## Dependencies: RXPGuides
+
+Human.lua
+Dwarf.lua
+NightElf.lua
+Gnome.lua
+Orc.lua
+Undead.lua
+Tauren.lua
+Troll.lua
