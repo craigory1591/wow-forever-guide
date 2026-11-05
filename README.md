@@ -1,7 +1,7 @@
 # WoW Forever Guide – RestedXP leveling guides (all races & classes, 1-60)
 
 Leveling guides for **World of Warcraft: Forever** that load straight into the **RestedXP** addon.
-There is one 1-60 guide for every race and class you can pick in Forever, 46 guides in total.
+There is one 1-60 guide for every race and class you can pick in Forever, including the new Skyborne race - 56 guides in total.
 
 ## Download
 
@@ -28,6 +28,8 @@ There is one 1-60 guide for every race and class you can pick in Forever, 46 gui
 | Undead | Warrior, Mage, Rogue, Priest, Warlock, Retribution Paladin |
 | Tauren | Warrior, Hunter, Druid, Shaman |
 | Troll | Warrior, Hunter, Mage, Rogue, Priest, Warlock, Shaman |
+| High Order Skyborne (Alliance) | Warrior, Hunter, Rogue, Mage, Druid |
+| Windshaper Skyborne (Horde) | Warrior, Hunter, Rogue, Shaman, Druid |
 
 Each guide follows that race's starting zones, then the Alliance or Horde route to 60, with the class
 quests (stances, demons, totems, pet taming, druid forms, mounts...) shown at the level you need them.
@@ -37,4 +39,5 @@ Every zone ends with a level checkpoint, so the guide waits for you there. Click
 
 - WoW: Forever is new, so some quests may have changed. Steps name the quests and the hub rather than
   relying on quest IDs, and waypoints are approximate.
+- The Skyborne start on Zephras Isle. Its quests are new, so that part of their guides gives general directions until the isle is mapped out; from level 12 they follow the full Alliance (Westfall) or Horde (Barrens) route.
 - If a step doesn't match the game, open an **[issue](../../issues)** with the guide name and the step.
