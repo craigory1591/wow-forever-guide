@@ -1,11 +1,15 @@
 -- WoW: Forever leveling guides for RestedXP: Night Elf (1-60, every class).
+-- Split into level brackets by tools/split-brackets.cjs: one guide per zone, grouped by class.
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Night Elf Warrior
-#version 1
-#group WoW Forever Guide - Night Elf
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 1-14 Teldrassil/Darkshore
+#displayname 1-14 Teldrassil/Darkshore
+#next Night Elf 14-17 Darkshore
+#version 2
 
 step
     .goto Teldrassil,58.6,44.7
@@ -94,7 +98,6 @@ step
     .goto Teldrassil,58.6,44.7
     .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
     >>Train your class spells at your trainer before you leave (level 4 and 6)
-
 step
     .goto Teldrassil,55.6,59.8
     .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
@@ -186,7 +189,6 @@ step
 step
     .goto Teldrassil,58.4,94.0
     >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
-
 step
     .goto Darkshore,36.8,44.3
     >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
@@ -203,6 +205,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
     .xp 14
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 14-17 Darkshore
+#displayname 14-17 Darkshore
+#next Night Elf 17-20 Darkshore
+#version 2
+
 step
     >>Warrior, level 10: your warrior trainer in Darnassus starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
 step
@@ -215,6 +229,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 17-20 Darkshore
+#displayname 17-20 Darkshore
+#next Night Elf 20-24 Ashenvale
+#version 2
+
 step
     .goto Darkshore,43.0,80.0
     >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
@@ -225,9 +251,20 @@ step
     .goto Darkshore,37.0,44.0
     >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
     .xp 20
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 20-24 Ashenvale
+#displayname 20-24 Ashenvale
+#next Night Elf 24-28 Wetlands
+#version 2
+
 step
     >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
-
 step
     .goto Ashenvale,26.4,38.6
     >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
@@ -244,6 +281,18 @@ step
     .goto Ashenvale,36.6,49.6
     >>Back to Astranaar, hand in, and pick up the follow-ups
     .xp 24
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 24-28 Wetlands
+#displayname 24-28 Wetlands
+#next Night Elf 28-31 Duskwood
+#version 2
+
 step
     >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
 step
@@ -259,6 +308,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Night Elf 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -271,6 +332,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Night Elf 33-35 Desolace
+#version 2
+
 step
     >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
 step
@@ -285,6 +358,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 33-35 Desolace
+#displayname 33-35 Desolace
+#next Night Elf 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -297,6 +382,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Night Elf 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -313,6 +409,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Night Elf 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -325,9 +433,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Night Elf 42-45 Feralas
+#version 2
+
 step
     >>Warrior, level 40: train Plate Mail in Darnassus and wear plate from now on
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -338,6 +457,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 42-45 Feralas
+#displayname 42-45 Feralas
+#next Night Elf 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -350,6 +481,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Night Elf 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -363,6 +505,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Night Elf 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -375,6 +529,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 52-54 Felwood
+#displayname 52-54 Felwood
+#next Night Elf 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -387,6 +553,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Night Elf 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -399,6 +577,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Night Elf 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -411,6 +601,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Night Elf route
+#name Night Elf 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -429,10 +630,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Night Elf Hunter
-#version 1
-#group WoW Forever Guide - Night Elf
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 1-14 Teldrassil/Darkshore
+#displayname 1-14 Teldrassil/Darkshore
+#next Night Elf 14-17 Darkshore
+#version 2
 
 step
     .goto Teldrassil,58.6,44.7
@@ -521,7 +725,6 @@ step
     .goto Teldrassil,58.6,44.7
     .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
     >>Train your class spells at your trainer before you leave (level 4 and 6)
-
 step
     .goto Teldrassil,55.6,59.8
     .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
@@ -613,7 +816,6 @@ step
 step
     .goto Teldrassil,58.4,94.0
     >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
-
 step
     .goto Darkshore,36.8,44.3
     >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
@@ -630,6 +832,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
     .xp 14
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 14-17 Darkshore
+#displayname 14-17 Darkshore
+#next Night Elf 17-20 Darkshore
+#version 2
+
 step
     >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in Darnassus. Talents: Beast Mastery
 step
@@ -642,6 +856,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 17-20 Darkshore
+#displayname 17-20 Darkshore
+#next Night Elf 20-24 Ashenvale
+#version 2
+
 step
     .goto Darkshore,43.0,80.0
     >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
@@ -652,9 +878,20 @@ step
     .goto Darkshore,37.0,44.0
     >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
     .xp 20
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 20-24 Ashenvale
+#displayname 20-24 Ashenvale
+#next Night Elf 24-28 Wetlands
+#version 2
+
 step
     >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
-
 step
     .goto Ashenvale,26.4,38.6
     >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
@@ -671,6 +908,18 @@ step
     .goto Ashenvale,36.6,49.6
     >>Back to Astranaar, hand in, and pick up the follow-ups
     .xp 24
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 24-28 Wetlands
+#displayname 24-28 Wetlands
+#next Night Elf 28-31 Duskwood
+#version 2
+
 step
     >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
 step
@@ -686,6 +935,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Night Elf 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -698,6 +959,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Night Elf 33-35 Desolace
+#version 2
+
 step
     >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
 step
@@ -712,6 +985,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 33-35 Desolace
+#displayname 33-35 Desolace
+#next Night Elf 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -724,6 +1009,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Night Elf 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -740,6 +1036,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Night Elf 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -752,9 +1060,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Night Elf 42-45 Feralas
+#version 2
+
 step
     >>Hunter, level 40: train Mail at Darnassus and wear mail from now on
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -765,6 +1084,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 42-45 Feralas
+#displayname 42-45 Feralas
+#next Night Elf 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -777,6 +1108,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Night Elf 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -790,6 +1132,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Night Elf 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -802,6 +1156,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 52-54 Felwood
+#displayname 52-54 Felwood
+#next Night Elf 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -814,6 +1180,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Night Elf 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -826,6 +1204,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Night Elf 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -838,6 +1228,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Hunter
+#group WoW Forever - Hunter
+#subgroup Night Elf route
+#name Night Elf 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -856,10 +1257,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Night Elf Rogue
-#version 1
-#group WoW Forever Guide - Night Elf
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 1-14 Teldrassil/Darkshore
+#displayname 1-14 Teldrassil/Darkshore
+#next Night Elf 14-17 Darkshore
+#version 2
 
 step
     .goto Teldrassil,58.6,44.7
@@ -948,7 +1352,6 @@ step
     .goto Teldrassil,58.6,44.7
     .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
     >>Train your class spells at your trainer before you leave (level 4 and 6)
-
 step
     .goto Teldrassil,55.6,59.8
     .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
@@ -1040,7 +1443,6 @@ step
 step
     .goto Teldrassil,58.4,94.0
     >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
-
 step
     .goto Darkshore,36.8,44.3
     >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
@@ -1057,6 +1459,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
     .xp 14
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 14-17 Darkshore
+#displayname 14-17 Darkshore
+#next Night Elf 17-20 Darkshore
+#version 2
+
 step
     >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
 step
@@ -1069,6 +1483,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 17-20 Darkshore
+#displayname 17-20 Darkshore
+#next Night Elf 20-24 Ashenvale
+#version 2
+
 step
     .goto Darkshore,43.0,80.0
     >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
@@ -1079,9 +1505,20 @@ step
     .goto Darkshore,37.0,44.0
     >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
     .xp 20
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 20-24 Ashenvale
+#displayname 20-24 Ashenvale
+#next Night Elf 24-28 Wetlands
+#version 2
+
 step
     >>Rogue, level 20: your rogue trainer in Darnassus starts the Poisons quest. Keep Instant Poison on your weapons from then on
-
 step
     .goto Ashenvale,26.4,38.6
     >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
@@ -1098,6 +1535,18 @@ step
     .goto Ashenvale,36.6,49.6
     >>Back to Astranaar, hand in, and pick up the follow-ups
     .xp 24
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 24-28 Wetlands
+#displayname 24-28 Wetlands
+#next Night Elf 28-31 Duskwood
+#version 2
+
 step
     >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
 step
@@ -1115,6 +1564,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Night Elf 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -1127,6 +1588,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Night Elf 33-35 Desolace
+#version 2
+
 step
     >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
 step
@@ -1139,6 +1612,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 33-35 Desolace
+#displayname 33-35 Desolace
+#next Night Elf 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -1151,6 +1636,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Night Elf 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -1167,6 +1663,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Night Elf 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -1179,9 +1687,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Night Elf 42-45 Feralas
+#version 2
+
 step
     >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -1192,6 +1711,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 42-45 Feralas
+#displayname 42-45 Feralas
+#next Night Elf 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -1204,6 +1735,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Night Elf 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -1217,6 +1759,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Night Elf 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -1229,6 +1783,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 52-54 Felwood
+#displayname 52-54 Felwood
+#next Night Elf 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -1241,6 +1807,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Night Elf 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -1253,6 +1831,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Night Elf 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -1265,6 +1855,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Night Elf route
+#name Night Elf 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -1283,10 +1884,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Night Elf Priest
-#version 1
-#group WoW Forever Guide - Night Elf
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 1-14 Teldrassil/Darkshore
+#displayname 1-14 Teldrassil/Darkshore
+#next Night Elf 14-17 Darkshore
+#version 2
 
 step
     .goto Teldrassil,58.6,44.7
@@ -1375,7 +1979,6 @@ step
     .goto Teldrassil,58.6,44.7
     .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
     >>Train your class spells at your trainer before you leave (level 4 and 6)
-
 step
     .goto Teldrassil,55.6,59.8
     .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
@@ -1467,7 +2070,6 @@ step
 step
     .goto Teldrassil,58.4,94.0
     >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
-
 step
     .goto Darkshore,36.8,44.3
     >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
@@ -1484,6 +2086,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
     .xp 14
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 14-17 Darkshore
+#displayname 14-17 Darkshore
+#next Night Elf 17-20 Darkshore
+#version 2
+
 step
     >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
 step
@@ -1496,6 +2110,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 17-20 Darkshore
+#displayname 17-20 Darkshore
+#next Night Elf 20-24 Ashenvale
+#version 2
+
 step
     .goto Darkshore,43.0,80.0
     >>Grove of the Ancients (far south): speak to Onu, kill Grimtotem Furbolgs and Raging Ironbacks; then The Master's Glaive (38,86): kill the Twilight Disciples and find the Phial of Scrying
@@ -1506,9 +2132,20 @@ step
     .goto Darkshore,37.0,44.0
     >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
     .xp 20
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 20-24 Ashenvale
+#displayname 20-24 Ashenvale
+#next Night Elf 24-28 Wetlands
+#version 2
+
 step
     >>Priest: train the racial priest spell at Darnassus. Use Inner Fire and Power Word: Shield before every pull
-
 step
     .goto Ashenvale,26.4,38.6
     >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
@@ -1525,6 +2162,18 @@ step
     .goto Ashenvale,36.6,49.6
     >>Back to Astranaar, hand in, and pick up the follow-ups
     .xp 24
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 24-28 Wetlands
+#displayname 24-28 Wetlands
+#next Night Elf 28-31 Duskwood
+#version 2
+
 step
     >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
 step
@@ -1540,6 +2189,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Night Elf 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -1552,6 +2213,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Night Elf 33-35 Desolace
+#version 2
+
 step
     >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
 step
@@ -1564,6 +2237,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 33-35 Desolace
+#displayname 33-35 Desolace
+#next Night Elf 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -1576,6 +2261,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Night Elf 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -1592,6 +2288,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Night Elf 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -1604,9 +2312,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Night Elf 42-45 Feralas
+#version 2
+
 step
     >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -1617,6 +2336,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 42-45 Feralas
+#displayname 42-45 Feralas
+#next Night Elf 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -1629,6 +2360,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Night Elf 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -1642,6 +2384,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Night Elf 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -1654,6 +2408,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 52-54 Felwood
+#displayname 52-54 Felwood
+#next Night Elf 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -1666,6 +2432,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Night Elf 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -1678,6 +2456,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Night Elf 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -1690,6 +2480,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Night Elf route
+#name Night Elf 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -1708,10 +2509,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Night Elf Druid
-#version 1
-#group WoW Forever Guide - Night Elf
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 1-14 Teldrassil/Darkshore
+#displayname 1-14 Teldrassil/Darkshore
+#next Night Elf 14-17 Darkshore
+#version 2
 
 step
     .goto Teldrassil,58.6,44.7
@@ -1800,7 +2604,6 @@ step
     .goto Teldrassil,58.6,44.7
     .accept 2159 >>Accept Dolanaar Delivery from Porthannius at the Shadowglen exit
     >>Train your class spells at your trainer before you leave (level 4 and 6)
-
 step
     .goto Teldrassil,55.6,59.8
     .turnin 2159 >>Head south to Dolanaar and turn in Dolanaar Delivery to Innkeeper Keldamyr
@@ -1892,7 +2695,6 @@ step
 step
     .goto Teldrassil,58.4,94.0
     >>Go to Rut'theran Village at the south of Teldrassil and take the boat to Auberdine (Darkshore)
-
 step
     .goto Darkshore,36.8,44.3
     >>Arrive in Auberdine. Make it your home at the inn, get the flight path, and pick up every quest in town (Washed Ashore, Fruit of the Sea, Buzzbox 827, The Red Crystal, Bashal'Aran, Tools of the Highborne, Cave Mushrooms, For Love Eternal)
@@ -1909,6 +2711,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Back to Auberdine: hand in everything, pick up the follow-ups (Bashal'Aran part 3, Thundris Windweaver's The Tower of Althalaxx, Mathias's Plagued Lands)
     .xp 14
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 14-17 Darkshore
+#displayname 14-17 Darkshore
+#next Night Elf 17-20 Darkshore
+#version 2
+
 step
     >>Druid, level 10: your druid trainer in Darnassus starts the Bear Form quest (Teleport: Moonglade - talk to the Great Bear Spirit). Talents: Feral
 step
@@ -1921,6 +2735,18 @@ step
     .goto Darkshore,37.0,44.0
     >>Hand in at Auberdine and pick up The Absent Minded Prospector (Dwarven explorer quests) and the Grove of the Ancients / Onu quests
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 17-20 Darkshore
+#displayname 17-20 Darkshore
+#next Night Elf 20-24 Ashenvale
+#version 2
+
 step
     >>Druid, level 16: Aquatic Form quest chain from your trainer
 step
@@ -1933,9 +2759,20 @@ step
     .goto Darkshore,37.0,44.0
     >>Return to Auberdine and hand in everything. Train new spells in Darnassus (Rut'theran boat)
     .xp 20
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 20-24 Ashenvale
+#displayname 20-24 Ashenvale
+#next Night Elf 24-28 Wetlands
+#version 2
+
 step
     >>Druid, level 20: train Cat Form at your trainer in Darnassus
-
 step
     .goto Ashenvale,26.4,38.6
     >>Run south from Darkshore (Bashal'Aran road) into Ashenvale. At Maestra's Post (26,38) pick up The Ruins of Ordil'Aran / Bathran's Hair / Raene's Cleansing
@@ -1952,6 +2789,18 @@ step
     .goto Ashenvale,36.6,49.6
     >>Back to Astranaar, hand in, and pick up the follow-ups
     .xp 24
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 24-28 Wetlands
+#displayname 24-28 Wetlands
+#next Night Elf 28-31 Duskwood
+#version 2
+
 step
     >>Fly to Auberdine and take the boat to Menethil Harbor (Wetlands)
 step
@@ -1967,6 +2816,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Night Elf 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -1979,6 +2840,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Night Elf 33-35 Desolace
+#version 2
+
 step
     >>Druid, level 30: train Travel Form at your trainer
 step
@@ -1993,6 +2866,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 33-35 Desolace
+#displayname 33-35 Desolace
+#next Night Elf 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -2005,6 +2890,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Night Elf 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -2021,6 +2917,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Night Elf 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -2033,9 +2941,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Night Elf 42-45 Feralas
+#version 2
+
 step
     >>Druid, level 40: train Dire Bear Form at your trainer
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -2046,6 +2965,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 42-45 Feralas
+#displayname 42-45 Feralas
+#next Night Elf 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -2058,6 +2989,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Night Elf 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -2071,6 +3013,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Night Elf 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -2083,6 +3037,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 52-54 Felwood
+#displayname 52-54 Felwood
+#next Night Elf 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -2095,6 +3061,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Night Elf 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -2107,6 +3085,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Night Elf 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -2119,6 +3109,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Druid
+#group WoW Forever - Druid
+#subgroup Night Elf route
+#name Night Elf 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step

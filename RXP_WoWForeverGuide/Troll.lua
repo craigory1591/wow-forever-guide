@@ -1,11 +1,15 @@
 -- WoW: Forever leveling guides for RestedXP: Troll (1-60, every class).
+-- Split into level brackets by tools/split-brackets.cjs: one guide per zone, grouped by class.
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Warrior
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -23,6 +27,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     .goto Durotar,55.9,74.4
     >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
@@ -39,6 +55,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Warrior, level 10: your warrior trainer in Orgrimmar starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
 step
@@ -54,6 +82,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -61,6 +101,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
 step
@@ -70,6 +122,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -80,6 +144,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     .goto Thousand Needles,46.0,51.0
     >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
@@ -93,6 +169,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
 step
@@ -105,6 +193,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -112,6 +212,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -122,6 +234,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -129,6 +253,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Warrior, level 40: train Plate Mail in Orgrimmar and wear plate from now on
 step
@@ -138,6 +274,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -145,6 +293,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -152,6 +312,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     .goto Un'Goro Crater,43.6,8.6
     >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
@@ -159,6 +331,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -166,6 +350,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -173,6 +369,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warrior
+#group WoW Forever - Warrior
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
@@ -186,10 +393,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Hunter
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -207,6 +417,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     .goto Durotar,55.9,74.4
     >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
@@ -223,6 +445,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Hunter, level 10: your hunter trainer starts Taming the Beast - tame the three beasts it asks for, then you can tame your own pet. Visit the pet trainer in Orgrimmar. Talents: Beast Mastery
 step
@@ -238,6 +472,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -245,6 +491,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Hunter: Aspect of the Cheetah at 20. Keep your pet fed and buy arrows/bullets in every town. A slow ranged weapon is best
 step
@@ -254,6 +512,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -264,6 +534,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     .goto Thousand Needles,46.0,51.0
     >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
@@ -277,6 +559,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     >>Hunter: upgrade your pet to a level-appropriate beast (a cat or boar from the zone you are in)
 step
@@ -289,6 +583,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -296,6 +602,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -306,6 +624,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -313,6 +643,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Hunter, level 40: train Mail at Orgrimmar and wear mail from now on
 step
@@ -322,6 +664,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -329,6 +683,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -336,6 +702,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     .goto Un'Goro Crater,43.6,8.6
     >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
@@ -343,6 +721,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -350,6 +740,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -357,6 +759,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Hunter
+#group WoW Forever - Hunter
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
@@ -370,10 +783,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Mage
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -391,6 +807,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     .goto Durotar,55.9,74.4
     >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
@@ -407,6 +835,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Mage: Frost for questing (Frostbolt and Frost Nova). Conjure your own food and water at every rank
 step
@@ -422,6 +862,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -429,6 +881,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Mage, level 20: train Teleport: Orgrimmar and buy Runes of Teleportation. Blink and Arcane Explosion for groups of mobs
 step
@@ -438,6 +902,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -448,6 +924,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     .goto Thousand Needles,46.0,51.0
     >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
@@ -461,6 +949,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     .goto Desolace,24.6,71.4
     >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
@@ -471,6 +971,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -478,6 +990,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -488,6 +1012,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -495,6 +1031,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Mage, level 40: train Portals at Orgrimmar (buy Runes of Portals). Keep Frost talents
 step
@@ -504,6 +1052,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -511,6 +1071,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -518,6 +1090,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     .goto Un'Goro Crater,43.6,8.6
     >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
@@ -525,6 +1109,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -532,6 +1128,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -539,6 +1147,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Mage
+#group WoW Forever - Mage
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
@@ -552,10 +1171,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Rogue
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -573,6 +1195,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     .goto Durotar,55.9,74.4
     >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
@@ -589,6 +1223,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
 step
@@ -604,6 +1250,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -611,6 +1269,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Rogue, level 20: your rogue trainer in Orgrimmar starts the Poisons quest. Keep Instant Poison on your weapons from then on
 step
@@ -620,6 +1290,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -630,6 +1312,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
 step
@@ -645,6 +1339,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     .goto Desolace,24.6,71.4
     >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
@@ -655,6 +1361,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -662,6 +1380,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -672,6 +1402,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -679,6 +1421,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
 step
@@ -688,6 +1442,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -695,6 +1461,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -702,6 +1480,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     .goto Un'Goro Crater,43.6,8.6
     >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
@@ -709,6 +1499,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -716,6 +1518,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -723,6 +1537,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Rogue
+#group WoW Forever - Rogue
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
@@ -736,10 +1561,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Priest
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -757,6 +1585,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     .goto Durotar,55.9,74.4
     >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
@@ -773,6 +1613,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
 step
@@ -788,6 +1640,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -795,6 +1659,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Priest: train the racial priest spell at Orgrimmar. Use Inner Fire and Power Word: Shield before every pull
 step
@@ -804,6 +1680,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -814,6 +1702,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     .goto Thousand Needles,46.0,51.0
     >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
@@ -827,6 +1727,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     .goto Desolace,24.6,71.4
     >>Desolace: Shadowprey Village (south-west): flight path, quests (Kodo Roundup, Hand of Iruxos, Centaur Bounty, Ghost-o-plasm, Clam Bait)
@@ -837,6 +1749,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -844,6 +1768,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -854,6 +1790,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -861,6 +1809,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
 step
@@ -870,6 +1830,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -877,6 +1849,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -884,6 +1868,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     .goto Un'Goro Crater,43.6,8.6
     >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
@@ -891,6 +1887,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -898,6 +1906,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -905,6 +1925,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Priest
+#group WoW Forever - Priest
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
@@ -918,10 +1949,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Warlock
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -939,6 +1973,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     .goto Durotar,55.9,74.4
     >>Sen'jin Village: hand in Report to Sen'jin, take Minshina's Skull, A Solvent Spirit, Practical Prey; Echo Isles (64,82) for the Darkspear troll quests
@@ -955,6 +2001,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Warlock, level 10: your warlock trainer in Orgrimmar starts the Voidwalker quest. Talents: Affliction (Improved Corruption, Fel Concentration)
 step
@@ -970,6 +2028,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -977,6 +2047,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Warlock, level 20: Succubus quest from your trainer in Orgrimmar. Keep a stack of Soul Shards (Drain Soul)
 step
@@ -986,6 +2068,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -996,6 +2090,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     .goto Thousand Needles,46.0,51.0
     >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
@@ -1009,6 +2115,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     >>Warlock, level 30: Felhunter quest from your trainer in Orgrimmar
 step
@@ -1021,6 +2139,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -1028,6 +2158,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -1038,6 +2180,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -1045,6 +2199,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Warlock, level 40: your trainer in Orgrimmar starts the Felsteed (mount) quest
 step
@@ -1054,6 +2220,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -1061,6 +2239,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -1068,6 +2258,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     >>Warlock, level 50: the Inferno / Infernal quest from your trainer
 step
@@ -1077,6 +2279,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -1084,6 +2298,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -1091,6 +2317,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Warlock
+#group WoW Forever - Warlock
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites
@@ -1104,10 +2341,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Horde
-#name 1-60 Troll Shaman
-#version 1
-#group WoW Forever Guide - Troll
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 1-6 Durotar
+#displayname 1-6 Durotar
+#next Troll 6-12 Durotar
+#version 2
 
 step
     .goto Durotar,42.1,68.4
@@ -1125,6 +2365,18 @@ step
     .goto Durotar,42.1,68.4
     >>Hand in everything. Take Lazy Peons and Report to Sen'jin Village
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 6-12 Durotar
+#displayname 6-12 Durotar
+#next Troll 12-17 The Barrens
+#version 2
+
 step
     >>Shaman, level 4: Call of Earth - the Earth totem quest from your shaman trainer
 step
@@ -1143,6 +2395,18 @@ step
     .goto Durotar,52.0,43.0
     >>Hand in at Razor Hill. Visit Orgrimmar: flight path, class trainer. Then run west into The Barrens
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 12-17 The Barrens
+#displayname 12-17 The Barrens
+#next Troll 17-21 The Barrens
+#version 2
+
 step
     >>Shaman, level 10: Call of Fire - the Fire totem quest from your trainer in Orgrimmar. Talents: Enhancement
 step
@@ -1158,6 +2422,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads and pick up the next round
     .xp 17
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 17-21 The Barrens
+#displayname 17-21 The Barrens
+#next Troll 21-23 Stonetalon Mountains
+#version 2
+
 step
     .goto The Barrens,45.0,58.0
     >>South Barrens: Camp Taurajo (44,59) flight path and quests; Bael'modan dwarves (48,85), the Razorfen kraul area, Lushwater Oasis. Wailing Caverns dungeon (46,36) is a great 18-22 run
@@ -1165,6 +2441,18 @@ step
     .goto The Barrens,52.0,30.0
     >>Hand in at the Crossroads
     .xp 21
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 21-23 Stonetalon Mountains
+#displayname 21-23 Stonetalon Mountains
+#next Troll 23-26 Ashenvale
+#version 2
+
 step
     >>Shaman, level 20: Call of Water - the Water totem quest. Ghost Wolf is trained at 20
 step
@@ -1174,6 +2462,18 @@ step
     .goto Stonetalon Mountains,62.0,55.0
     >>Windshear Crag Venture Co. (Venture Co. Logger / Deforester) and Cenarius' Legacy; Greatwood Vale spiders
     .xp 23
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 23-26 Ashenvale
+#displayname 23-26 Ashenvale
+#next Troll 26-30 Hillsbrad Foothills
+#version 2
+
 step
     .goto Ashenvale,73.6,61.6
     >>Ashenvale: Splintertree Post (73,61) - flight path, quests (The Ashenvale Hunt, Satyr Horns, Warsong Supplies, Stonetalon Standstill)
@@ -1184,6 +2484,18 @@ step
     .goto Ashenvale,73.6,61.6
     >>Hand in at Splintertree
     .xp 26
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 26-30 Hillsbrad Foothills
+#displayname 26-30 Hillsbrad Foothills
+#next Troll 30-33 Desolace
+#version 2
+
 step
     .goto Thousand Needles,46.0,51.0
     >>Thousand Needles: Freewind Post (45,50) - flight path, quests (Wind Rider, Hypercapacitor Gizmo, Load Lightening, Homeward Bound); Shimmering Flats racing quests (78,77)
@@ -1197,6 +2509,18 @@ step
     .goto Hillsbrad Foothills,62.0,20.0
     >>Hand in at Tarren Mill
     .xp 30
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 30-33 Desolace
+#displayname 30-33 Desolace
+#next Troll 33-35 Arathi Highlands
+#version 2
+
 step
     >>Shaman, level 30: Call of Air - the Air totem quest (Windfury Totem)
 step
@@ -1209,6 +2533,18 @@ step
     .goto Desolace,24.6,71.4
     >>Hand in at Shadowprey
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 33-35 Arathi Highlands
+#displayname 33-35 Arathi Highlands
+#next Troll 35-38 Stranglethorn Vale
+#version 2
+
 step
     .goto Arathi Highlands,73.6,32.6
     >>Arathi Highlands: Hammerfall (east) - flight path, quests (Hammerfall and Witherbark ogres, The Hammer May Fall, Raising Spirits, The Boulderfist Outpost)
@@ -1216,6 +2552,18 @@ step
     .goto Arathi Highlands,52.0,52.0
     >>Boulderfist ogres, Witherbark trolls (Witherbark Village 68,70), the Stromgarde humans and Syndicate at the Circle of Inner Binding
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Troll 38-42 Dustwallow Marsh
+#version 2
+
 step
     .goto Stranglethorn Vale,32.4,29.2
     >>Stranglethorn Vale: Grom'gol Base Camp (zeppelin from Orgrimmar/Undercity) - flight path, quests. Nesingwary's Expedition (35,10) - Tiger, Panther and Raptor Mastery
@@ -1226,6 +2574,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Keep working the Nesingwary hunts and the Kurzen / Bloodscalp / Skullsplitter troll quests
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 38-42 Dustwallow Marsh
+#displayname 38-42 Dustwallow Marsh
+#next Troll 42-44 Tanaris
+#version 2
+
 step
     .goto Dustwallow Marsh,35.6,31.0
     >>Dustwallow Marsh: Brackenwall Village (north-west) - quests (Hungry!, Theramore spies, Mudrock Soup, Lieutenant Paval's quests)
@@ -1233,6 +2593,18 @@ step
     .goto Badlands,4.0,47.0
     >>Badlands: Kargath (west) - flight path, quests (Barbecued Buzzard Wings, Coyote Thieves, Dustbelcher ogres, Uldaman entrance 42,11)
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 42-44 Tanaris
+#displayname 42-44 Tanaris
+#next Troll 44-47 Feralas
+#version 2
+
 step
     >>Shaman, level 40: train Mail at Orgrimmar and wear mail from now on
 step
@@ -1242,6 +2614,18 @@ step
     .goto Tanaris,63.0,30.0
     >>Wastewander bandits and Noonshade Ruins; Zul'Farrak (39,21) dungeon at 44-48
     .xp 44
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 44-47 Feralas
+#displayname 44-47 Feralas
+#next Troll 47-50 The Hinterlands
+#version 2
+
 step
     .goto Feralas,75.4,44.4
     >>Feralas: Camp Mojache (east) - flight path, quests (The Ogres of Feralas, Gordunni Cobalt, Woodpaw Investigation, The Mark of Quality)
@@ -1249,6 +2633,18 @@ step
     .goto Feralas,70.0,58.0
     >>Gordunni ogres (Gordunni Outpost 72,61), Woodpaw gnolls, the Grimtotem; Dire Maul (59,44) for groups
     .xp 47
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 47-50 The Hinterlands
+#displayname 47-50 The Hinterlands
+#next Troll 50-53 Un'Goro Crater
+#version 2
+
 step
     .goto The Hinterlands,79.0,79.0
     >>The Hinterlands: Revantusk Village (east coast) - flight path, quests (Vilebranch Hooligans, Cannibalistic Cousins, Snapjaws)
@@ -1256,6 +2652,18 @@ step
     .goto The Hinterlands,60.0,70.0
     >>Vilebranch trolls (Jintha'Alor 60,70), Witherbark trolls, the Highvale elves
     .xp 50
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 50-53 Un'Goro Crater
+#displayname 50-53 Un'Goro Crater
+#next Troll 53-55 Felwood
+#version 2
+
 step
     .goto Un'Goro Crater,43.6,8.6
     >>Un'Goro Crater: Marshal's Refuge - every quest (The Apes of Un'Goro, Roll the Bones, Crystals of Power, Beware of Pterrordax, Super Sticky). Collect Power Crystals as you go
@@ -1263,6 +2671,18 @@ step
     .goto Un'Goro Crater,62.0,30.0
     >>Gorillas, Stegodons, raptors, Bloodpetals, Pterrordaxes and the Silithid hive
     .xp 53
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 53-55 Felwood
+#displayname 53-55 Felwood
+#next Troll 55-57 Winterspring
+#version 2
+
 step
     .goto Felwood,34.6,53.6
     >>Felwood: Bloodvenom Post (west) - flight path, quests (Forces of Jaedenar, Cleansing Felwood, Timbermaw Ally); Emerald Sanctuary (51,82)
@@ -1270,6 +2690,18 @@ step
     .goto Felwood,38.0,59.0
     >>Jaedenar Shadow Council, Jadefire satyrs, Deadwood furbolgs (Timbermaw reputation)
     .xp 55
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 55-57 Winterspring
+#displayname 55-57 Winterspring
+#next Troll 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Winterspring,61.4,38.6
     >>Winterspring: Everlook (through the Timbermaw Hold tunnel, Felwood 64,8) - quests (Are We There, Yeti?, Winterfall Activity, Donova Snowden at 31,45)
@@ -1277,6 +2709,17 @@ step
     .goto Winterspring,67.0,38.0
     >>Winterfall furbolgs, Frostsabers, Ice Thistle Yetis, Chillwind Chimaeras
     .xp 57
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Horde Shaman
+#group WoW Forever - Shaman
+#subgroup Troll route
+#name Troll 57-60 Western Plaguelands
+#displayname 57-60 Western Plaguelands
+#version 2
+
 step
     .goto Western Plaguelands,47.0,67.0
     >>Western Plaguelands: the Bulwark (Tirisfal 83,69) - quests (A Call to Arms: The Plaguelands!, The Scourge Cauldrons); Andorhal and the cauldron sites

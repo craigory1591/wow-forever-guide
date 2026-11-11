@@ -1,11 +1,15 @@
 -- WoW: Forever leveling guides for RestedXP: Gnome (1-60, every class).
+-- Split into level brackets by tools/split-brackets.cjs: one guide per zone, grouped by class.
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Gnome Warrior
-#version 1
-#group WoW Forever Guide - Gnome
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 1-6 Dun Morogh
+#displayname 1-6 Dun Morogh
+#next Gnome 6-12 Dun Morogh
+#version 2
 
 step
     .goto Dun Morogh,29.9,71.2
@@ -23,6 +27,18 @@ step
     .goto Dun Morogh,22.0,79.0
     >>Grelin Whitebeard's camp (south): take The Troll Cave, kill Frostmane Troll Whelps; deliver Felix's Box / Mail to Talin Keeneye
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 6-12 Dun Morogh
+#displayname 6-12 Dun Morogh
+#next Gnome 12-18 Loch Modan
+#version 2
+
 step
     .goto Dun Morogh,33.6,72.0
     >>Leave through the Coldridge Pass tunnel (east) to Kharanos
@@ -42,6 +58,18 @@ step
     .goto Dun Morogh,46.7,53.1
     >>Hand in at Kharanos. Visit Ironforge (flight path, class trainer)
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 12-18 Loch Modan
+#displayname 12-18 Loch Modan
+#next Gnome 18-22 Redridge Mountains
+#version 2
+
 step
     >>Warrior, level 10: your warrior trainer in Ironforge starts the Defensive Stance quest. Talents: Arms (Deflection, Tactical Mastery, Sweeping Strikes, Mortal Strike at 30)
 step
@@ -59,6 +87,18 @@ step
     .goto Loch Modan,35.5,48.4
     >>Hand in at Thelsamar. Then fly to Ironforge, take the Deeprun Tram to Stormwind, and run east through Elwynn Forest to Redridge Mountains
     .xp 18
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 18-22 Redridge Mountains
+#displayname 18-22 Redridge Mountains
+#next Gnome 22-28 Wetlands
+#version 2
+
 step
     >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
 step
@@ -71,6 +111,18 @@ step
     .goto Redridge Mountains,30.6,59.4
     >>Hand in at Lakeshire
     .xp 22
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 22-28 Wetlands
+#displayname 22-28 Wetlands
+#next Gnome 28-31 Duskwood
+#version 2
+
 step
     >>Warrior: questing with a slow two-hander is fastest. Train every rank of Heroic Strike, Rend, Overpower and Thunder Clap
 step
@@ -88,6 +140,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Gnome 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -100,6 +164,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Gnome 33-35 Desolace
+#version 2
+
 step
     >>Warrior, level 30: Berserker Stance quest. Get to Ratchet (The Barrens), go to Fray Island (Barrens 68,49) and speak to Klannoc Macleod for The Affray; win the fight, then The Windwatcher in Thousand Needles
 step
@@ -114,6 +190,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 33-35 Desolace
+#displayname 33-35 Desolace
+#next Gnome 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -126,6 +214,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Gnome 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -142,6 +241,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Gnome 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -154,9 +265,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Gnome 42-45 Feralas
+#version 2
+
 step
     >>Warrior, level 40: train Plate Mail in Ironforge and wear plate from now on
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -167,6 +289,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 42-45 Feralas
+#displayname 42-45 Feralas
+#next Gnome 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -179,6 +313,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Gnome 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -192,6 +337,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Gnome 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -204,6 +361,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 52-54 Felwood
+#displayname 52-54 Felwood
+#next Gnome 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -216,6 +385,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Gnome 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -228,6 +409,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Gnome 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -240,6 +433,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warrior
+#group WoW Forever - Warrior
+#subgroup Gnome route
+#name Gnome 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -258,10 +462,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Gnome Mage
-#version 1
-#group WoW Forever Guide - Gnome
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 1-6 Dun Morogh
+#displayname 1-6 Dun Morogh
+#next Gnome 6-12 Dun Morogh
+#version 2
 
 step
     .goto Dun Morogh,29.9,71.2
@@ -279,6 +486,18 @@ step
     .goto Dun Morogh,22.0,79.0
     >>Grelin Whitebeard's camp (south): take The Troll Cave, kill Frostmane Troll Whelps; deliver Felix's Box / Mail to Talin Keeneye
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 6-12 Dun Morogh
+#displayname 6-12 Dun Morogh
+#next Gnome 12-18 Loch Modan
+#version 2
+
 step
     .goto Dun Morogh,33.6,72.0
     >>Leave through the Coldridge Pass tunnel (east) to Kharanos
@@ -298,6 +517,18 @@ step
     .goto Dun Morogh,46.7,53.1
     >>Hand in at Kharanos. Visit Ironforge (flight path, class trainer)
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 12-18 Loch Modan
+#displayname 12-18 Loch Modan
+#next Gnome 18-22 Redridge Mountains
+#version 2
+
 step
     >>Mage: Frost for questing (Frostbolt and Frost Nova). Conjure your own food and water at every rank
 step
@@ -315,6 +546,18 @@ step
     .goto Loch Modan,35.5,48.4
     >>Hand in at Thelsamar. Then fly to Ironforge, take the Deeprun Tram to Stormwind, and run east through Elwynn Forest to Redridge Mountains
     .xp 18
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 18-22 Redridge Mountains
+#displayname 18-22 Redridge Mountains
+#next Gnome 22-28 Wetlands
+#version 2
+
 step
     >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
 step
@@ -327,6 +570,18 @@ step
     .goto Redridge Mountains,30.6,59.4
     >>Hand in at Lakeshire
     .xp 22
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 22-28 Wetlands
+#displayname 22-28 Wetlands
+#next Gnome 28-31 Duskwood
+#version 2
+
 step
     >>Mage, level 20: train Teleport: Ironforge and buy Runes of Teleportation. Blink and Arcane Explosion for groups of mobs
 step
@@ -344,6 +599,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Gnome 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -356,6 +623,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Gnome 33-35 Desolace
+#version 2
+
 step
     >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
 step
@@ -368,6 +647,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 33-35 Desolace
+#displayname 33-35 Desolace
+#next Gnome 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -380,6 +671,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Gnome 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -396,6 +698,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Gnome 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -408,9 +722,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Gnome 42-45 Feralas
+#version 2
+
 step
     >>Mage, level 40: train Portals at Ironforge (buy Runes of Portals). Keep Frost talents
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -421,6 +746,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 42-45 Feralas
+#displayname 42-45 Feralas
+#next Gnome 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -433,6 +770,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Gnome 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -446,6 +794,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Gnome 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -458,6 +818,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 52-54 Felwood
+#displayname 52-54 Felwood
+#next Gnome 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -470,6 +842,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Gnome 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -482,6 +866,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Gnome 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -494,6 +890,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Mage
+#group WoW Forever - Mage
+#subgroup Gnome route
+#name Gnome 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -512,10 +919,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Gnome Rogue
-#version 1
-#group WoW Forever Guide - Gnome
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 1-6 Dun Morogh
+#displayname 1-6 Dun Morogh
+#next Gnome 6-12 Dun Morogh
+#version 2
 
 step
     .goto Dun Morogh,29.9,71.2
@@ -533,6 +943,18 @@ step
     .goto Dun Morogh,22.0,79.0
     >>Grelin Whitebeard's camp (south): take The Troll Cave, kill Frostmane Troll Whelps; deliver Felix's Box / Mail to Talin Keeneye
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 6-12 Dun Morogh
+#displayname 6-12 Dun Morogh
+#next Gnome 12-18 Loch Modan
+#version 2
+
 step
     .goto Dun Morogh,33.6,72.0
     >>Leave through the Coldridge Pass tunnel (east) to Kharanos
@@ -552,6 +974,18 @@ step
     .goto Dun Morogh,46.7,53.1
     >>Hand in at Kharanos. Visit Ironforge (flight path, class trainer)
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 12-18 Loch Modan
+#displayname 12-18 Loch Modan
+#next Gnome 18-22 Redridge Mountains
+#version 2
+
 step
     >>Rogue: Combat swords or maces for questing. Train Sprint and Pick Pocket. Talents: Combat
 step
@@ -569,6 +1003,18 @@ step
     .goto Loch Modan,35.5,48.4
     >>Hand in at Thelsamar. Then fly to Ironforge, take the Deeprun Tram to Stormwind, and run east through Elwynn Forest to Redridge Mountains
     .xp 18
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 18-22 Redridge Mountains
+#displayname 18-22 Redridge Mountains
+#next Gnome 22-28 Wetlands
+#version 2
+
 step
     >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
 step
@@ -581,6 +1027,18 @@ step
     .goto Redridge Mountains,30.6,59.4
     >>Hand in at Lakeshire
     .xp 22
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 22-28 Wetlands
+#displayname 22-28 Wetlands
+#next Gnome 28-31 Duskwood
+#version 2
+
 step
     >>Rogue, level 20: your rogue trainer in Ironforge starts the Poisons quest. Keep Instant Poison on your weapons from then on
 step
@@ -598,6 +1056,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Gnome 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Rogue: train Lockpicking and open the lockboxes you loot (and other players'). Keep your Lockpicking skill up
 step
@@ -612,6 +1082,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Gnome 33-35 Desolace
+#version 2
+
 step
     >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
 step
@@ -624,6 +1106,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 33-35 Desolace
+#displayname 33-35 Desolace
+#next Gnome 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -636,6 +1130,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Gnome 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -652,6 +1157,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Gnome 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -664,9 +1181,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Gnome 42-45 Feralas
+#version 2
+
 step
     >>Rogue, level 40: train Safe Fall / Kick ranks; keep Instant Poison and Crippling Poison stocked
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -677,6 +1205,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 42-45 Feralas
+#displayname 42-45 Feralas
+#next Gnome 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -689,6 +1229,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Gnome 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -702,6 +1253,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Gnome 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -714,6 +1277,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 52-54 Felwood
+#displayname 52-54 Felwood
+#next Gnome 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -726,6 +1301,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Gnome 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -738,6 +1325,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Gnome 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -750,6 +1349,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Rogue
+#group WoW Forever - Rogue
+#subgroup Gnome route
+#name Gnome 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -768,10 +1378,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Gnome Priest
-#version 1
-#group WoW Forever Guide - Gnome
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 1-6 Dun Morogh
+#displayname 1-6 Dun Morogh
+#next Gnome 6-12 Dun Morogh
+#version 2
 
 step
     .goto Dun Morogh,29.9,71.2
@@ -789,6 +1402,18 @@ step
     .goto Dun Morogh,22.0,79.0
     >>Grelin Whitebeard's camp (south): take The Troll Cave, kill Frostmane Troll Whelps; deliver Felix's Box / Mail to Talin Keeneye
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 6-12 Dun Morogh
+#displayname 6-12 Dun Morogh
+#next Gnome 12-18 Loch Modan
+#version 2
+
 step
     .goto Dun Morogh,33.6,72.0
     >>Leave through the Coldridge Pass tunnel (east) to Kharanos
@@ -808,6 +1433,18 @@ step
     .goto Dun Morogh,46.7,53.1
     >>Hand in at Kharanos. Visit Ironforge (flight path, class trainer)
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 12-18 Loch Modan
+#displayname 12-18 Loch Modan
+#next Gnome 18-22 Redridge Mountains
+#version 2
+
 step
     >>Priest: Shadow talents for questing (Spirit Tap, Shadow Focus, Mind Flay at 20). Wand between spells
 step
@@ -825,6 +1462,18 @@ step
     .goto Loch Modan,35.5,48.4
     >>Hand in at Thelsamar. Then fly to Ironforge, take the Deeprun Tram to Stormwind, and run east through Elwynn Forest to Redridge Mountains
     .xp 18
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 18-22 Redridge Mountains
+#displayname 18-22 Redridge Mountains
+#next Gnome 22-28 Wetlands
+#version 2
+
 step
     >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
 step
@@ -837,6 +1486,18 @@ step
     .goto Redridge Mountains,30.6,59.4
     >>Hand in at Lakeshire
     .xp 22
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 22-28 Wetlands
+#displayname 22-28 Wetlands
+#next Gnome 28-31 Duskwood
+#version 2
+
 step
     >>Priest: train the racial priest spell at Ironforge. Use Inner Fire and Power Word: Shield before every pull
 step
@@ -854,6 +1515,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Gnome 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -866,6 +1539,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Gnome 33-35 Desolace
+#version 2
+
 step
     >>From Menethil, run north through the Thandol Span (Arathi) to Southshore, or fly if you have it. Grab the Refuge Pointe flight path in Arathi on the way (45,46)
 step
@@ -878,6 +1563,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 33-35 Desolace
+#displayname 33-35 Desolace
+#next Gnome 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -890,6 +1587,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Gnome 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -906,6 +1614,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Gnome 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -918,9 +1638,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Gnome 42-45 Feralas
+#version 2
+
 step
     >>Priest, level 40: Shadowform (talent). Keep a good wand upgraded
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -931,6 +1662,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 42-45 Feralas
+#displayname 42-45 Feralas
+#next Gnome 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -943,6 +1686,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Gnome 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -956,6 +1710,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Gnome 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -968,6 +1734,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 52-54 Felwood
+#displayname 52-54 Felwood
+#next Gnome 54-56 Western Plaguelands
+#version 2
+
 step
     >>Fly to Astranaar (Ashenvale) and run north into Felwood (or fly to Talonbranch Glade if you have it)
 step
@@ -980,6 +1758,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Gnome 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -992,6 +1782,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Gnome 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -1004,6 +1806,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Priest
+#group WoW Forever - Priest
+#subgroup Gnome route
+#name Gnome 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step
@@ -1022,10 +1835,13 @@ step
 
 RXPGuides.RegisterGuide([[
 #classic
-<< Alliance
-#name 1-60 Gnome Warlock
-#version 1
-#group WoW Forever Guide - Gnome
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 1-6 Dun Morogh
+#displayname 1-6 Dun Morogh
+#next Gnome 6-12 Dun Morogh
+#version 2
 
 step
     .goto Dun Morogh,29.9,71.2
@@ -1043,6 +1859,18 @@ step
     .goto Dun Morogh,22.0,79.0
     >>Grelin Whitebeard's camp (south): take The Troll Cave, kill Frostmane Troll Whelps; deliver Felix's Box / Mail to Talin Keeneye
     .xp 6
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 6-12 Dun Morogh
+#displayname 6-12 Dun Morogh
+#next Gnome 12-18 Loch Modan
+#version 2
+
 step
     .goto Dun Morogh,33.6,72.0
     >>Leave through the Coldridge Pass tunnel (east) to Kharanos
@@ -1062,6 +1890,18 @@ step
     .goto Dun Morogh,46.7,53.1
     >>Hand in at Kharanos. Visit Ironforge (flight path, class trainer)
     .xp 12
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 12-18 Loch Modan
+#displayname 12-18 Loch Modan
+#next Gnome 18-22 Redridge Mountains
+#version 2
+
 step
     >>Warlock, level 10: your warlock trainer in Ironforge starts the Voidwalker quest. Talents: Affliction (Improved Corruption, Fel Concentration)
 step
@@ -1079,6 +1919,18 @@ step
     .goto Loch Modan,35.5,48.4
     >>Hand in at Thelsamar. Then fly to Ironforge, take the Deeprun Tram to Stormwind, and run east through Elwynn Forest to Redridge Mountains
     .xp 18
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 18-22 Redridge Mountains
+#displayname 18-22 Redridge Mountains
+#next Gnome 22-28 Wetlands
+#version 2
+
 step
     >>Run east to Redridge Mountains (through Elwynn east road, Three Corners)
 step
@@ -1091,6 +1943,18 @@ step
     .goto Redridge Mountains,30.6,59.4
     >>Hand in at Lakeshire
     .xp 22
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 22-28 Wetlands
+#displayname 22-28 Wetlands
+#next Gnome 28-31 Duskwood
+#version 2
+
 step
     >>Warlock, level 20: Succubus quest from your trainer in Ironforge. Keep a stack of Soul Shards (Drain Soul)
 step
@@ -1108,6 +1972,18 @@ step
     .goto Wetlands,10.6,59.9
     >>Hand in at Menethil
     .xp 28
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 28-31 Duskwood
+#displayname 28-31 Duskwood
+#next Gnome 31-33 Hillsbrad Foothills
+#version 2
+
 step
     >>Fly to Stormwind / Lakeshire and run to Darkshire (Duskwood)
 step
@@ -1120,6 +1996,18 @@ step
     .goto Duskwood,73.9,46.7
     >>Hand in at Darkshire and take the follow-ups
     .xp 31
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 31-33 Hillsbrad Foothills
+#displayname 31-33 Hillsbrad Foothills
+#next Gnome 33-35 Desolace
+#version 2
+
 step
     >>Warlock, level 30: Felhunter quest from your trainer in Ironforge
 step
@@ -1134,6 +2022,18 @@ step
     .goto Hillsbrad Foothills,51.2,52.6
     >>Hand in at Southshore
     .xp 33
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 33-35 Desolace
+#displayname 33-35 Desolace
+#next Gnome 35-38 Stranglethorn Vale
+#version 2
+
 step
     >>Take the boat from Menethil Harbor to Auberdine (Darkshore) and grab the flight path, then run south through Ashenvale (Astranaar flight path) and Stonetalon Mountains into Desolace
 step
@@ -1146,6 +2046,17 @@ step
     .goto Desolace,66.2,7.8
     >>Hand in at Nijel's Point
     .xp 35
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 35-38 Stranglethorn Vale
+#displayname 35-38 Stranglethorn Vale
+#next Gnome 38-40 Dustwallow Marsh
+#version 2
 
 step
     >>Fly to Stormwind / Duskwood and run south into Stranglethorn Vale
@@ -1162,6 +2073,18 @@ step
     .goto Stranglethorn Vale,35.6,10.6
     >>Do the second tier of Nesingwary hunts while levelling up
     .xp 38
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 38-40 Dustwallow Marsh
+#displayname 38-40 Dustwallow Marsh
+#next Gnome 40-42 Tanaris
+#version 2
+
 step
     >>From Booty Bay take the boat to Ratchet, then run/fly to Theramore (Dustwallow Marsh)
 step
@@ -1174,9 +2097,20 @@ step
     .goto Dustwallow Marsh,66.4,45.6
     >>Hand in at Theramore. Train your level 40 spells
     .xp 40
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 40-42 Tanaris
+#displayname 40-42 Tanaris
+#next Gnome 42-45 Feralas
+#version 2
+
 step
     >>Warlock, level 40: your trainer in Ironforge starts the Felsteed (mount) quest
-
 step
     .goto Tanaris,51.0,29.2
     >>Gadgetzan (Tanaris): set your home, flight path, take every quest (WANTED: Andre Firebeard, Water Pouch Bounty, Wastewander Justice, Thistleshrub Valley, The Thirsty Goblin)
@@ -1187,6 +2121,18 @@ step
     .goto Tanaris,51.0,29.2
     >>Hand in at Gadgetzan
     .xp 42
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 42-45 Feralas
+#displayname 42-45 Feralas
+#next Gnome 45-48 The Hinterlands
+#version 2
+
 step
     >>Fly to Feathermoon Stronghold (Feralas) - boat from the Feralas coast (43,42) if you do not have the flight path
 step
@@ -1199,6 +2145,17 @@ step
     .goto Feralas,30.4,43.2
     >>Hand in at Feathermoon
     .xp 45
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 45-48 The Hinterlands
+#displayname 45-48 The Hinterlands
+#next Gnome 48-52 Un'Goro Crater
+#version 2
 
 step
     >>Fly to Ironforge, then to Aerie Peak (or run through the Hinterlands from Hillsbrad)
@@ -1212,6 +2169,18 @@ step
     .goto The Hinterlands,14.2,46.4
     >>Hand in at Aerie Peak
     .xp 48
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 48-52 Un'Goro Crater
+#displayname 48-52 Un'Goro Crater
+#next Gnome 52-54 Felwood
+#version 2
+
 step
     >>Fly to Gadgetzan and run south-west into Un'Goro Crater (the ramp at Tanaris 27,57)
 step
@@ -1224,6 +2193,18 @@ step
     .goto Un'Goro Crater,43.6,8.6
     >>Hand in at Marshal's Refuge
     .xp 52
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 52-54 Felwood
+#displayname 52-54 Felwood
+#next Gnome 54-56 Western Plaguelands
+#version 2
+
 step
     >>Warlock, level 50: the Inferno / Infernal quest from your trainer
 step
@@ -1238,6 +2219,18 @@ step
     .goto Felwood,62.6,24.2
     >>Talonbranch Glade (north): flight path, take the north Felwood quests (Deadwood of the North, Felbound Ancients)
     .xp 54
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 54-56 Western Plaguelands
+#displayname 54-56 Western Plaguelands
+#next Gnome 56-58 Winterspring
+#version 2
+
 step
     >>Fly to Chillwind Camp in Western Plaguelands (flight path from Southshore if you don't have it)
 step
@@ -1250,6 +2243,18 @@ step
     .goto Western Plaguelands,42.8,84.0
     >>Hand in at Chillwind Camp
     .xp 56
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 56-58 Winterspring
+#displayname 56-58 Winterspring
+#next Gnome 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Everlook (Winterspring) - take the Timbermaw Hold tunnel from north Felwood (64,8) if you don't have the flight path
 step
@@ -1262,6 +2267,17 @@ step
     .goto Winterspring,61.4,38.6
     >>Hand in at Everlook
     .xp 58
+]])
+
+RXPGuides.RegisterGuide([[
+#classic
+<< Alliance Warlock
+#group WoW Forever - Warlock
+#subgroup Gnome route
+#name Gnome 58-60 Eastern Plaguelands
+#displayname 58-60 Eastern Plaguelands
+#version 2
+
 step
     >>Fly to Chillwind Camp and run east into the Eastern Plaguelands
 step

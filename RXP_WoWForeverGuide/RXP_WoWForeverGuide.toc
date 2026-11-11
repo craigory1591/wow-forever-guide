@@ -1,7 +1,7 @@
 ## Interface: 16001
 ## Title: RestedXP - WoW Forever Guide (All Classes)
-## Notes: 1-60 leveling guides for every race and class in WoW: Forever, plus start-anywhere routes
-## Version: 5
+## Notes: 1-60 leveling guides for every race and class in WoW: Forever, split into zone brackets per class, with quest log sync (/wfg)
+## Version: 6
 ## Dependencies: RXPGuides
 
 Human.lua
@@ -16,3 +16,4 @@ HighOrderSkyborne.lua
 WindshaperSkyborne.lua
 StartAnywhereAlliance.lua
 StartAnywhereHorde.lua
+QuestLogSync.lua
